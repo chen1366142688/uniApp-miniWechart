@@ -1,0 +1,27 @@
+/* pages/successfulApplication/successfulApplication.wxss */
+.successful{
+  display: block;
+  width:190rpx;
+  height:190rpx;
+  margin:85rpx auto 68rpx auto;
+}
+.successText{
+  text-align: center;
+  font-size:30rpx;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:rgba(46,46,46,1);
+  line-height:56rpx;
+}
+.btnFoot{
+  width:600rpx;
+  height:88rpx;
+  background:#F66B6B;
+  border-radius:44rpx;
+  margin:225rpx auto 0 auto;
+  font-size:30rpx;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:rgba(255,255,255,1);
+  letter-spacing: 3rpx;
+}

@@ -1,0 +1,85 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "万引体育"
+			}
+		},{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "报名"
+			}
+		},
+		{
+			"path": "pages/apply/apply",
+			"style": {
+				"navigationBarTitleText": "报名"
+			}
+		}
+	    ,{
+            "path" : "pages/myInfo/myInfo",
+            "style": {
+            	"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#FCA66C"
+            }
+        },
+		{
+		    "path" : "pages/login/login",
+		    "style": {
+		    	"navigationBarTitleText": "登录"
+		    }
+		},
+		{
+		    "path" : "pages/about/about",
+		    "style": {
+		    	"navigationBarTitleText": "关于我们"
+		    }
+		},
+		{
+		    "path" : "pages/contactUs/contactUs",
+		    "style": {
+		    	"navigationBarTitleText": "联系我们"
+		    }
+		},
+		{
+		    "path" : "pages/successfulApplication/successfulApplication",
+		    "style": {
+		    	"navigationBarTitleText": "提交成功"
+		    }
+		}
+    ],
+	"globalStyle": {
+		"backgroundTextStyle":"light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "万引体育",
+		"navigationBarTextStyle":"black"
+	},
+	"tabBar": {
+	    "color": "#999999",
+	    "selectedColor": "#F4963C",
+	    "backgroundColor": "#FFFFFF",
+	    "borderStyle": "black",
+	    "list": [
+	      {
+	        "pagePath": "pages/home/home",
+	        "text": "首页",
+	        "iconPath": "static/home.png",
+	        "selectedIconPath": "static/homeActive.png"
+	      },
+	      {
+	        "pagePath": "pages/index/index",
+	        "text": "报名",
+	        "iconPath": "static/signUp.png",
+	        "selectedIconPath": "static/signUpActive.png"
+	      },
+	      {
+	        "pagePath": "pages/myInfo/myInfo",
+	        "text": "我的",
+	        "iconPath": "static/info.png",
+	        "selectedIconPath": "static/infoActive.png"
+	      }
+	    ]
+	  }
+}

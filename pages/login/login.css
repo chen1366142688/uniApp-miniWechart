@@ -1,0 +1,125 @@
+/* pages/login/login.wxss */
+page{
+  background: url('http://xlrtimo.oss-cn-beijing.aliyuncs.com/HorseScoutData/leaderMassSports/loginBg.png') no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height:100vh;
+}
+.head{height:431rpx;}
+.head2{height:260rpx;}
+.logo{
+  display: block;
+  width:357rpx;
+  height:202rpx;
+  margin:52rpx auto 0 auto;
+}
+.yijian{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.yijian button{
+  width:600rpx;
+  height:88rpx;
+  background:#F66B6B;
+  border-radius:44rpx;
+  font-size:30rpx;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:rgba(255,255,255,1);
+}
+.codeData{
+  width:100%;
+  height:170rpx;
+  font-size:30rpx;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:#F66B6B;
+  letter-spacing: 4rpx;
+}
+.yanzheng{
+  width:600rpx;
+  margin:0 auto;
+}
+.inputLable{
+  height:65rpx;
+  display: flex;
+  align-items: center;
+  font-size:26rpx;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:#FFFFFF;
+  padding-left:20rpx;
+}
+.inputPhone{
+  border-bottom:2rpx solid #E1E1E1;
+  padding-bottom:20rpx;
+  margin:10rpx 0 20rpx 0;
+  padding-left:20rpx;
+  font-size:30rpx;
+  font-family:PingFang SC;
+  color:#FFFFFF;
+}
+.inputNumplace{
+  font-size:30rpx;
+  font-family:PingFang SC;
+  color:#FFFFFF;
+}
+.codeApp{
+  border-bottom:2rpx solid #E1E1E1;
+  padding:10rpx 20rpx 20rpx 20rpx;
+  display: flex;
+}
+.inputCode{
+  flex:1;
+  font-size:30rpx;
+  font-family:PingFang SC;
+  color:#FFFFFF;
+}
+.verification{
+  width:160rpx;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size:30rpx;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:#F66B6B;
+}
+.sending{
+  color: #FFFFFF;
+}
+.footText{
+  font-size:24rpx;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:#E1E1E1;
+  padding-left:20rpx;
+  margin-top:30rpx;
+}
+.submit{
+  width:600rpx;
+  height:88rpx;
+  background:#F66B6B;
+  border-radius:44rpx;
+  font-size:30rpx;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:rgba(255,255,255,1);
+  letter-spacing: 6rpx;
+  margin-top:90rpx;
+}
+.footer{
+  font-size:24rpx;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:rgba(255,255,255,1);
+  position: fixed;
+  bottom:87rpx;
+  width:100%;
+  text-align: center;
+}
+.xieyi{
+  color:#F66B6B;
+}

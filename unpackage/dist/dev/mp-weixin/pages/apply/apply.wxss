@@ -1,0 +1,386 @@
+/** 公用样式 */
+.flex-between{
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+          align-items:center;
+}
+/** 页面样式 */
+page{
+  background:#eee;
+  position:relative;
+  height:100%;
+  padding-bottom:64rpx;
+}
+.form{
+  /* height:100%; */
+  overflow-y:scroll;
+  background:#fff;
+  margin-top:20rpx;
+  overflow-x:hidden;
+}
+.form-fixed{
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+}
+.cell{
+  min-height:90rpx;
+  width:100%;
+  border-bottom:1rpx solid #eee;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 24rpx;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+          align-items:center;
+  font-size:26rpx;
+}
+.cell-title{
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+          align-items:center;
+  width:238rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.cell-title-max{
+  width:275rpx;
+}
+.upload-img{
+  font-size:26rpx;
+  width:100%;
+  -webkit-box-sizing:border-box;
+          box-sizing:border-box;
+  padding:24rpx 15rpx;
+}
+.cell input{
+  height:90rpx;
+  text-align:right;
+}
+.apply-type .radio:nth-of-type(2){
+  margin-left:100rpx;
+}
+.sport-industry .radio:nth-of-type(2){
+  margin-left:100rpx;
+  margin-right:20rpx;
+}
+.modal-bg{
+  width:100%;
+  height:100%;
+  background:rgba(0, 0, 0, 0.5);
+  position:fixed;
+  z-index:98;
+  top:0;
+  left:0;
+}
+.checkboxItem{
+  -webkit-transform: scale(.6);
+          transform: scale(.6);
+}
+.checkboxGroup{
+  width:100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.radioGroup{
+  width:100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.borderNo{
+  border-bottom:none;
+}
+.checkbox{
+  margin-left:85rpx;
+}
+#modal{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  min-height:722rpx;
+  background:#fff;
+  z-index:99;
+  -webkit-border-radius:10rpx 10rpx 0rpx 0rpx;
+          border-radius:10rpx 10rpx 0rpx 0rpx;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+          align-items:center;
+}
+#modal .modal-header{
+  width:100%;
+  height:98rpx;
+  line-height:98rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding:0 26rpx;
+  border-bottom:1rpx solid #E4E4E4;
+}
+.modal-selected{
+  width:100%;
+  height: 295rpx;
+  overflow-y:scroll;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding:16rpx;
+  border-bottom:1rpx solid #E4E4E4;
+}
+.selected-list{
+  width:100%;
+  height:260rpx;
+  display: grid;
+  grid-template-columns: repeat(3, 28%);
+  grid-row-gap: 30rpx;
+  grid-column-gap: 50rpx;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-content: start;
+          align-content: start;  
+  -webkit-box-sizing: border-box;  
+          box-sizing: border-box;
+}
+.modal-selected .selected-item{
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  position:relative;
+  min-width:158rpx;
+  height:64rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* padding: 0rpx 16rpx; */
+  border:1px solid #F4963C;
+  -webkit-border-radius:6rpx;
+          border-radius:6rpx;
+  color:#F4963C;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.modal-selected .selected-item text{
+  font-size:26rpx;
+  line-height:64rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding:0 16rpx;
+}
+.modal-selected .selected-item image{
+  width:42rpx;
+  height:42rpx;
+  position: absolute;
+  bottom:0;
+  right:-1rpx;
+}
+.modal-content{
+  width:100%;
+  height:730rpx;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.modal-content .left{
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.modal-content .left .left-item{
+  width:158rpx;
+  height:90rpx;
+  background:rgba(255,255,255,1);
+  border:1rpx solid rgba(228, 228, 228, 1);
+  border-top:none;
+  text-align:center;
+  line-height:90rpx;
+  font-size:28rpx;
+  color:#232323;
+}
+.modal-content .right{
+  width:590rpx;
+  -webkit-box-sizing:border-box;
+          box-sizing:border-box;
+  padding: 30rpx 15rpx 30rpx 0rpx;
+}
+.modal-content .right .right-item{
+  min-width:140rpx;
+  height:64rpx;
+  display:inline-block;
+  margin-left:30rpx;
+  margin-bottom:20rpx;
+  background:rgba(247,247,247,1);
+  -webkit-border-radius:6rpx;
+          border-radius:6rpx;
+  text-align:center;
+  line-height:64rpx;
+  color:#474843;
+  padding:0 10rpx;
+  white-space:nowrap;
+  position:relative;
+}
+.modal-content .right .right-item text{
+  font-size:26rpx;
+  line-height:64rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding:0 16rpx;
+}
+.modal-content .right .right-item image{
+  width:42rpx;
+  height:42rpx;
+  position: absolute;
+  bottom:0;
+  right:-1rpx;
+}
+.footer{
+  width:100%;
+  height:150rpx;
+  text-align:center;
+}
+.footer .btn{
+  width:600rpx;
+  height:88rpx;
+  background:#F66B6B;
+  -webkit-border-radius:44rpx;
+          border-radius:44rpx;
+  color:#fff;
+  text-align:center;
+  line-height:88rpx;
+  margin:30rpx auto;
+}
+.uploadImgData{
+  width:220rpx;
+  height:220rpx;
+  display: inline-block;
+  position: relative;
+  margin:15rpx 10rpx;
+}
+.uploadImg{
+  width:220rpx;
+  height:220rpx;
+}
+.upload-title{
+  padding-left:10rpx;
+}
+.delete{
+  position: absolute;
+  top:0;
+  right:0;
+  width:40rpx;
+  height:40rpx;
+  cursor: pointer;
+}
+.parent-selected{
+  color: #F4963C !important;
+  border-right:none !important;
+}
+.child-selected{
+  background:none !important;
+  border:1rpx solid #F4963C;
+  color:#F4963C !important;
+}
+.footer-fixed{
+  position:fixed;
+  bottom:0;
+  left:0;
+}
+/** 原生组件样式 */
+.radio .wx-radio-input{
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+          flex: none;
+  width:24rpx;
+  height:24rpx;
+}
+input{
+  width:75%;
+}
+picker{
+  -webkit-box-flex:1;
+  -webkit-flex:1;
+          flex:1;
+  height:90rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  position: relative;
+}
+.picker{
+  max-width:450rpx;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  height:90rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-right:35rpx;
+}
+.noPadding{padding-right:0rpx;}
+picker .right_icon{
+  position: absolute;
+  top:50%;
+  right:0rpx;
+  width:5rpx;
+  height:10rpx;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+

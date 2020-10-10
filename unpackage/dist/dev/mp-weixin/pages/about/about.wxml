@@ -1,0 +1,1 @@
+<view class="app"><web-view src="{{termsOfService}}"></web-view></view>

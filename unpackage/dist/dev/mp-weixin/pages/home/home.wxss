@@ -1,0 +1,64 @@
+/* pages/home/home/index.wxss */
+page{
+  background: #F8F8F8;
+}
+.nav-swiper{
+  height:315rpx;
+  width:100%;
+  padding:30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.swiper{
+   height: 252rpx;
+   -webkit-border-radius: 10rpx;
+           border-radius: 10rpx;
+   background: url('http://xlrtimo.oss-cn-beijing.aliyuncs.com/HorseScoutData/leaderMassSports/loading.png') no-repeat;
+   background-size: cover;
+}
+.back{
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.bannerImg{
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  width:100%;
+  height:100%;
+}
+.signUpNow{
+  display: block;
+  width:690rpx;
+  height:143rpx;
+  margin:0 auto;
+}
+.transverseData{
+  height:74rpx;
+  margin-top:33rpx;
+}
+.transverse{
+  width:86rpx;
+  height:2px;
+  background:rgba(35,35,35,1);
+}
+.asdie{
+  font-size:32rpx;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:rgba(35,35,35,1);
+  margin:0 30rpx;
+}
+.sectionData{
+  width:650rpx;
+  background:rgba(255,255,255,1);
+  margin:0 auto;
+  font-size:26rpx;
+  font-family:PingFang SC;
+  font-weight:500;
+  color:rgba(91,91,91,1);
+  line-height:40rpx;
+  padding:30rpx 22rpx;
+  text-indent: 50rpx;
+}
+.kong{height:30rpx;}
+

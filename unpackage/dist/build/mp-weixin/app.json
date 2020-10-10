@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/apply/apply",
+    "pages/myInfo/myInfo",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "万引体育",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#F4963C",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/homeActive.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "报名",
+        "iconPath": "static/signUp.png",
+        "selectedIconPath": "static/signUpActive.png"
+      },
+      {
+        "pagePath": "pages/myInfo/myInfo",
+        "text": "我的",
+        "iconPath": "static/info.png",
+        "selectedIconPath": "static/infoActive.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

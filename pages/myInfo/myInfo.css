@@ -1,0 +1,100 @@
+/* pages/myInfo/myInfo/index.wxss */
+.logo{
+  width:170rpx;
+  height:170rpx;
+  border-radius: 50%;
+}
+button::after {
+  border: none
+}
+.getuserinfo{
+  background: #FFF;
+}
+
+page{background: #F8F8F8}
+.head{
+  background: url('http://xlrtimo.oss-cn-beijing.aliyuncs.com/HorseScoutData/leaderMassSports/infoBg.png') no-repeat;
+  background-size: cover;
+  width:100%;
+  height:228rpx;
+  background-position: 0 -88rpx;
+}
+.section{
+  min-height:200rpx;
+  border-radius:50rpx 50rpx 0 0;
+  transform: translateY(-73.5rpx);
+  z-index: 2;
+  background: #F8F8F8;
+  position: relative;
+}
+.avatar{
+  width:170rpx;
+  height:170rpx;
+  border-radius: 50%;
+  position: absolute;
+  top:-85rpx;
+  left:50%;
+  transform: translateX(-50%);
+  background: #DFDFDF;
+  padding-left:0;
+  padding-right:0;
+}
+.userinfo-avatar{
+	width:170rpx;
+	  height:170rpx;
+	  border-radius: 50%;
+}
+.kong{height:105rpx;}
+.phone{
+  height:40rpx;
+  font-size:38rpx;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:rgba(91,91,91,1);
+  text-align: center;
+  margin-bottom:59rpx;
+}
+.infoData{
+  width:710rpx;
+  height:124rpx;
+  background:rgba(255,255,255,1);
+  box-shadow:-3rpx 2rpx 14rpx 0rpx rgba(220,220,220,0.4);
+  border-radius:10rpx;
+  margin:0 auto 14rpx auto;
+  padding:0 40rpx;
+  box-sizing: border-box;
+  font-size:28rpx;
+  font-family:PingFang SC;
+  font-weight:500;
+  color:rgba(91,91,91,1);
+}
+.infoSec{
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+.infoSec image{
+  width:40rpx;
+  height:40rpx;
+  margin-right:12rpx;
+}
+.right-icon{
+  width:10rpx;
+  height:20rpx;
+}
+.foot{
+  width: 100%;
+  height:208rpx;
+  position: fixed;
+  bottom: 0;
+}
+.getOut{
+  width:300rpx;
+  height:88rpx;
+  background:rgba(246,107,107,1);
+  border-radius:44rpx;
+  font-size:28rpx;
+  font-family:PingFang SC;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+}
